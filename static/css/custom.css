@@ -1,0 +1,73 @@
+body {
+    padding-top: 72px;  /* only if fixed nav bar is enabled */
+    font-size: 14px;
+}
+
+.index {
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.login {
+    background-image: url(../images/2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.registration {
+    background-image: url(../images/3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.navbar-dark
+.navbar-brand {
+    color: #000;
+}
+
+.navbar-light
+.navbar-nav
+.nav-link {
+    color: #000;
+}
+
+.container, .container-fluid {
+    margin-top: 10px;
+}
+
+.jumbotron-transparent {
+    background-color: transparent;
+}
+
+.card-header {
+    background-color: transparent;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+@media print {
+    .screen {
+        display: none !important;
+        width: 0px !important;
+    }
+
+    .print-area {
+        /*display: block;*/
+    }
+}
